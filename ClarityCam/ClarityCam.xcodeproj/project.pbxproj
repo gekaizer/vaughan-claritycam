@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1B2C3D400000001 /* ClarityCamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D400000101 /* ClarityCamApp.swift */; };
+		A1B2C3D400000002 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D400000102 /* CameraView.swift */; };
+		A1B2C3D400000003 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D400000103 /* CameraPreviewView.swift */; };
+		A1B2C3D400000004 /* MapThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D400000104 /* MapThumbnailView.swift */; };
+		A1B2C3D400000005 /* CompassRoseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D400000105 /* CompassRoseView.swift */; };
+		A1B2C3D400000006 /* InfoOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D400000106 /* InfoOverlayView.swift */; };
+		A1B2C3D400000007 /* VaughanLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D400000107 /* VaughanLogoView.swift */; };
+		A1B2C3D400000008 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D400000108 /* LocationManager.swift */; };
+		A1B2C3D400000009 /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D400000109 /* CameraService.swift */; };
+		A1B2C3D40000000A /* ImageCompositor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D40000010A /* ImageCompositor.swift */; };
+		A1B2C3D40000000B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D40000010B /* Assets.xcassets */; };
+		A1B2C3D400000010 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B2C3D400000210 /* SwiftUI.framework */; };
+		A1B2C3D400000011 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B2C3D400000211 /* AVFoundation.framework */; };
+		A1B2C3D400000012 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B2C3D400000212 /* CoreLocation.framework */; };
+		A1B2C3D400000013 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B2C3D400000213 /* MapKit.framework */; };
+		A1B2C3D400000014 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B2C3D400000214 /* Photos.framework */; };
+		A1B2C3D400000015 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B2C3D400000215 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1B2C3D400000101 /* ClarityCamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClarityCamApp.swift; sourceTree = "<group>"; };
+		A1B2C3D400000102 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		A1B2C3D400000103 /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		A1B2C3D400000104 /* MapThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapThumbnailView.swift; sourceTree = "<group>"; };
+		A1B2C3D400000105 /* CompassRoseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassRoseView.swift; sourceTree = "<group>"; };
+		A1B2C3D400000106 /* InfoOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoOverlayView.swift; sourceTree = "<group>"; };
+		A1B2C3D400000107 /* VaughanLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaughanLogoView.swift; sourceTree = "<group>"; };
+		A1B2C3D400000108 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		A1B2C3D400000109 /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
+		A1B2C3D40000010A /* ImageCompositor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCompositor.swift; sourceTree = "<group>"; };
+		A1B2C3D40000010B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1B2C3D40000010C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B2C3D400000200 /* ClarityCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClarityCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B2C3D400000210 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		A1B2C3D400000211 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A1B2C3D400000212 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A1B2C3D400000213 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A1B2C3D400000214 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		A1B2C3D400000215 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1B2C3D400000301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D400000010 /* SwiftUI.framework in Frameworks */,
+				A1B2C3D400000011 /* AVFoundation.framework in Frameworks */,
+				A1B2C3D400000012 /* CoreLocation.framework in Frameworks */,
+				A1B2C3D400000013 /* MapKit.framework in Frameworks */,
+				A1B2C3D400000014 /* Photos.framework in Frameworks */,
+				A1B2C3D400000015 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1B2C3D400000400 /* = */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D400000401 /* ClarityCam */,
+				A1B2C3D400000404 /* Frameworks */,
+				A1B2C3D400000405 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1B2C3D400000401 /* ClarityCam */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D400000101 /* ClarityCamApp.swift */,
+				A1B2C3D400000402 /* Views */,
+				A1B2C3D400000403 /* Services */,
+				A1B2C3D40000010B /* Assets.xcassets */,
+				A1B2C3D40000010C /* Info.plist */,
+			);
+			path = ClarityCam;
+			sourceTree = "<group>";
+		};
+		A1B2C3D400000402 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D400000102 /* CameraView.swift */,
+				A1B2C3D400000103 /* CameraPreviewView.swift */,
+				A1B2C3D400000104 /* MapThumbnailView.swift */,
+				A1B2C3D400000105 /* CompassRoseView.swift */,
+				A1B2C3D400000106 /* InfoOverlayView.swift */,
+				A1B2C3D400000107 /* VaughanLogoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1B2C3D400000403 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D400000108 /* LocationManager.swift */,
+				A1B2C3D400000109 /* CameraService.swift */,
+				A1B2C3D40000010A /* ImageCompositor.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A1B2C3D400000404 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D400000210 /* SwiftUI.framework */,
+				A1B2C3D400000211 /* AVFoundation.framework */,
+				A1B2C3D400000212 /* CoreLocation.framework */,
+				A1B2C3D400000213 /* MapKit.framework */,
+				A1B2C3D400000214 /* Photos.framework */,
+				A1B2C3D400000215 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1B2C3D400000405 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D400000200 /* ClarityCam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1B2C3D400000500 /* ClarityCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B2C3D400000700 /* Build configuration list for PBXNativeTarget "ClarityCam" */;
+			buildPhases = (
+				A1B2C3D400000302 /* Sources */,
+				A1B2C3D400000301 /* Frameworks */,
+				A1B2C3D400000303 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClarityCam;
+			productName = ClarityCam;
+			productReference = A1B2C3D400000200 /* ClarityCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1B2C3D400000600 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				ORGANIZATIONNAME = "City of Vaughan";
+				TargetAttributes = {
+					A1B2C3D400000500 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A1B2C3D400000800 /* Build configuration list for PBXProject "ClarityCam" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1B2C3D400000400;
+			productRefGroup = A1B2C3D400000405 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1B2C3D400000500 /* ClarityCam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1B2C3D400000303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D40000000B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1B2C3D400000302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D400000001 /* ClarityCamApp.swift in Sources */,
+				A1B2C3D400000002 /* CameraView.swift in Sources */,
+				A1B2C3D400000003 /* CameraPreviewView.swift in Sources */,
+				A1B2C3D400000004 /* MapThumbnailView.swift in Sources */,
+				A1B2C3D400000005 /* CompassRoseView.swift in Sources */,
+				A1B2C3D400000006 /* InfoOverlayView.swift in Sources */,
+				A1B2C3D400000007 /* VaughanLogoView.swift in Sources */,
+				A1B2C3D400000008 /* LocationManager.swift in Sources */,
+				A1B2C3D400000009 /* CameraService.swift in Sources */,
+				A1B2C3D40000000A /* ImageCompositor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1B2C3D400000701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClarityCam/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ClarityCam;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSCameraUsageDescription = "ClarityCam needs access to your camera to capture photos.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "ClarityCam needs your location to add geographic information to photos.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "ClarityCam needs access to save photos to your library.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaughan.claritycam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1";
+			};
+			name = Debug;
+		};
+		A1B2C3D400000702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClarityCam/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ClarityCam;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSCameraUsageDescription = "ClarityCam needs access to your camera to capture photos.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "ClarityCam needs your location to add geographic information to photos.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "ClarityCam needs access to save photos to your library.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaughan.claritycam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1";
+			};
+			name = Release;
+		};
+		A1B2C3D400000801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1B2C3D400000802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1B2C3D400000700 /* Build configuration list for PBXNativeTarget "ClarityCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B2C3D400000701 /* Debug */,
+				A1B2C3D400000702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B2C3D400000800 /* Build configuration list for PBXProject "ClarityCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B2C3D400000801 /* Debug */,
+				A1B2C3D400000802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1B2C3D400000600 /* Project object */;
+}

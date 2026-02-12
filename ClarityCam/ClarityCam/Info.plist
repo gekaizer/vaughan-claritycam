@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSCameraUsageDescription</key>
+	<string>ClarityCam needs camera access to take geo-stamped photos.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>ClarityCam needs your location to stamp photos with GPS coordinates, address, and compass heading.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>ClarityCam needs photo library access to save stamped photos.</string>
+</dict>
+</plist>
