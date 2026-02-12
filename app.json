@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "ClarityCam",
+    "slug": "claritycam",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.vaughan.claritycam",
+      "infoPlist": {
+        "NSCameraUsageDescription": "ClarityCam needs camera access to take geo-stamped photos.",
+        "NSLocationWhenInUseUsageDescription": "ClarityCam needs your location to stamp photos with GPS coordinates and address.",
+        "NSPhotoLibraryAddUsageDescription": "ClarityCam needs photo library access to save stamped photos."
+      }
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "ClarityCam needs camera access to take geo-stamped photos."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "ClarityCam needs your location to stamp photos with GPS coordinates and address."
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "ClarityCam needs photo library access to save stamped photos."
+        }
+      ]
+    ]
+  }
+}
